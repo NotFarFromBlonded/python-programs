@@ -1,0 +1,9 @@
+ctr = 1
+nm = raw_input("enter your name: ")
+ch = 'y'
+while ch == 'y' or ch == 'Y':
+    print nm
+    ctr = ctr 
+    ch = raw_input("do you want to continue? ")
+print "no of times name is repeated = ",ctr
+    

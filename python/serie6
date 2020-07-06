@@ -1,0 +1,11 @@
+Sum = 0
+x = input ("enter a no. ")
+n = input ("enter no. of terms")
+for i in range(0, n+1):
+    fac = 1.0
+    for j in range(1,i+1):
+        fac = fac*j
+    Term = pow(x,i)/fac
+    print "term",i,"=",pow(x,i),"/",fac
+    Sum = Sum + Term
+print "Sum of term0+",n,"terms = ",Sum

@@ -1,0 +1,5 @@
+no1 = input ("enter a no.")
+if no1 >= 0:
+    print no1 ,"is positive"
+else:
+    print no1 ,"is negative"

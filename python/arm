@@ -1,0 +1,11 @@
+x = input ("enter a no. = ")
+arm = 0
+no1=x
+while x<>0:
+    a = x%10
+    arm = arm +a**3
+    x = x/10
+if arm==no1:
+    print no1,"is an armstrong no."
+else:
+    print no1,"is not an armstrong no."

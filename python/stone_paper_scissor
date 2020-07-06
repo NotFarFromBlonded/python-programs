@@ -1,0 +1,21 @@
+import random
+userchoice = str.lower(raw_input('stone, Paper or Scissor? (t/p/s)'))
+
+computerchoice = random.randint(1,3)
+
+if computerchoice == 1:
+    computerchoice = 't'
+elif computerchoice == 2:
+    computerchoice = 'p'
+else:
+    computerchoice = 's'
+
+print "Computer chose:",computerchoice
+
+if userchoice == computerchoice :
+    print "tie!"
+elif(userchoice == 't' and computerchoice == 's') or (userchoice == 's' and computerchoice == 'p') or (userchoice == 'p' and computerchoice == 't'):
+    print "user won!"
+else:
+    print "computer won!"
+     

@@ -1,0 +1,8 @@
+Sum = 0
+X = input("Enter a no.= ")
+n = input("Enter no. of terms=")
+for i in range (1,2*n,2):
+    print X**i,'\t'
+    Sum = Sum+X**i
+    print "Sum = ",Sum
+    

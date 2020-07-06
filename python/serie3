@@ -1,0 +1,7 @@
+Sum = 0
+A = input ("enter a no.")
+B = input ("enter no. of terms")
+for i in range (0,B+1):
+    print A**i,'\t'
+    Sum = Sum + A**i
+    print "Sum= ",Sum

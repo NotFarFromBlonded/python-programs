@@ -1,0 +1,6 @@
+s =input("enter time in seconds ")
+m = s/60
+r = s%60
+h = m/60
+t = m%60
+print "the time is ",h,"hours",t,"minutes and",r,"seconds"

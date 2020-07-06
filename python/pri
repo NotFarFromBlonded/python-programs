@@ -1,0 +1,10 @@
+no = (input ("enter a no. = "))
+if no >1:
+        for i in range (2,no):
+            if (no%i )== 0:
+                print no,"is not a prime no."
+                break
+        else:
+            print no,"is  a prime no."
+else:
+    print no,"is not a prime no."

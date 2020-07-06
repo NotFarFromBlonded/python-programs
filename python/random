@@ -1,0 +1,7 @@
+import random
+picker = random.randint(0,3)
+color = ["Blue","Pink","Green","Red"]
+for i in color:
+    for j in range(1,picker):
+        print (i,end)
+    print()

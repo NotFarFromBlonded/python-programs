@@ -1,0 +1,8 @@
+no = input ("enter a no. = ")
+revno = 0
+no1 = no
+while no<>0:
+        a = no%10
+        revno = revno*10 +a
+        no = no/10
+print "reverse no. = ",revno

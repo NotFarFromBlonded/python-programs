@@ -1,0 +1,6 @@
+Dm = input ("enter a no.")
+if Dm/5 == 0:
+    print Dm,"is a multiple of 5"
+else:
+    print Dm,"is not a multiple of 5"
+    

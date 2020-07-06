@@ -1,0 +1,9 @@
+Python 2.7.9 (default, Dec 10 2014, 12:24:55) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 0 or none and "or" = None
+SyntaxError: can't assign to operator
+>>> False and 23
+False
+>>> 0 or None and "or"
+>>> 
+>>> 0 or None and "or"

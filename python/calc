@@ -1,0 +1,16 @@
+no1 = input ("Enter first no.:")
+no2 = input ("Enter second no.:")
+op = raw_input ("Enter operator:")
+if op =='+':
+    r = no1+no2
+if op =='-':
+    r = no1-no2
+if op =='/':
+    r= no1/no2
+if op =='x':
+    r = no1*no2
+else :
+    r = "invalid operation"
+print "Result:",r
+
+

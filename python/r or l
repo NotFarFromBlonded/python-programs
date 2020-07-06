@@ -1,0 +1,5 @@
+w = raw_input("enter R/L")
+if w=="R":
+    print "turn Right"
+else:
+    print "turn Left"

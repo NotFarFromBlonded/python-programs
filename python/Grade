@@ -1,0 +1,23 @@
+m = input ("enter your marks")
+if m>100:
+    print "invalid"
+if m>90:
+    print "A1"
+elif m>80:
+    print "A2"
+elif m>70:
+    print "B1"
+elif m>60:
+    print "B2"
+elif m>50:
+    print "C1"
+elif m>40:
+    print "C2"
+elif m>=33:
+    print "D"
+elif  m>=0:
+    print "E"
+else:
+    print "invalid "
+
+
